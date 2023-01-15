@@ -7,4 +7,4 @@ app.use(express.static("public"));
 
 app.get("/", (req,res)=> res.sendFile(path.join(__dirname,"views/home.html")))
 
-app.listen(3010, () => console.log("el servidor esta escuchando al puerto 3010"))
+app.listen(3050, () => console.log("el servidor esta escuchando al puerto 3050"))
